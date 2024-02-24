@@ -63,3 +63,14 @@ JSON is used in cross platform communication.
 
 Steps are given by Sun microsystem
 Download the mysql connector jar from the browser and choose platform independent
+
+========================================================================================================
+class DriverManager{
+    public static Connection getConnection(url, username, password){
+          return new ConnectionImpl();
+    }
+}
+
+class ConnectionImpl implements Connection{
+
+}
